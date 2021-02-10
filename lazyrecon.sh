@@ -29,8 +29,8 @@ reset=`tput sgr0`
 
 SECONDS=0
 
-domain=
-subreport=
+#domain=
+#subreport=
 usage() { echo -e "Usage: ./lazyrecon.sh -d domain.com [-e] [excluded.domain.com,other.domain.com]\nOptions:\n  -e\t-\tspecify excluded subdomains\n " 1>&2; exit 1; }
 
 while getopts ":d:e:r:" o; do
